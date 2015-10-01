@@ -1,0 +1,38 @@
+body{
+	font-family: Calibry;
+}
+h1,h2{
+	text-align: center;
+}
+
+#box1{
+	/*background-color: blue;*/
+	/*height: 450px;*/
+}
+#box2{
+	/*background-color: red;*/
+	height: 450px;
+}
+#box2a{
+	/*background-color: purple;*/
+	/*height: 150px;*/
+}
+#box2b{
+	/*background-color: orange;*/
+	/*height: 300px*/
+}
+#box3{
+	/*background-color: green;*/
+	/*height: 450px;*/
+}
+#box4{
+	/*background-color: #cfedac;*/
+	/*height: 450px;*/
+}
+#box5{
+	/*background-color: #cfedac;*/
+	/*height: 450px;*/
+}
+table{
+	font-size: 20px;
+}

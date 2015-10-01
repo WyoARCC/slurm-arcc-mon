@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap library -->
+    <title>Mt Moran Statistics</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- JavaScript for bootstrap -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- AngularJS framework -->
+    <script type="text/javascript" src="lib/angularjs/angular.js"></script>
+    <!-- chart lib -->
+    <script type="text/javascript src="lib/chart/chart.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>MT MORAN HPC STATUS</h1>
+      <div class="row">
+        <div class="col-lg-2" id="box1">
+          <canvas id="b1a" width="240" height="450"></canvas>
+        </div>
+        <div class="col-lg-3" id="box2a"></div>
+        <div class="col-lg-4" id="box2b">
+          <canvas id="b2b" width="600" height="450" style="background-color:#aabbcc"></canvas>
+        </div>
+        <div class="col-lg-3" id="box3">
+          <!-- draw a table here -->
+      </div>
+      <div class="row">
+        <div class="col-lg-4" id="box4">
+            <canvas id="b4a" width="600px" height="400px"></canvas>
+        </div>  
+        <div class="col-lg-8" id="box5">
+          <!-- draw a table -->
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/b1a.js"></script>
+    <script type="text/javascript" src="js/b2a.js"></script>
+    <script type="text/javascript" src="js/b2b.js"></script>
+    <script type="text/javascript" src="js/b3a.js"></script>
+    <script type="text/javascript" src="js/b4a.js"></script>
+    <script type="text/javascript" src="js/b5a.js"></script>
+  </body>
+</html>
